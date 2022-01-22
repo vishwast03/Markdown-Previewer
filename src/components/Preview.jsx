@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { marked } from "marked";
 
 const Preview = (props) => {
+  // rendering the respective HTML after parsing markdown to preview section
   useEffect(() => {
     document.getElementById("preview").innerHTML = marked.parse(props.text);
   });

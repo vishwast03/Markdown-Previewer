@@ -4,6 +4,7 @@ import Editor from "./components/Editor";
 import Preview from "./components/Preview";
 
 function App() {
+  // text state to store and update markdown text
   const [text, setText] = useState(`# Markdown syntax guide
 
 ## Headers
