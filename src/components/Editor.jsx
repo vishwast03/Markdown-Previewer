@@ -33,7 +33,7 @@ const Editor = (props) => {
   return (
     <div className="w-1/2 h-full flex-1 border-2 border-black relative">
       <button
-        className="absolute z-10 right-4 top-4 hover:scale-105"
+        className="absolute z-10 right-6 top-4 hover:scale-105"
         id="btn-copy"
       >
         <i className="fas fa-copy text-gray-800 text-2xl"></i>

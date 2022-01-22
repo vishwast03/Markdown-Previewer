@@ -70,8 +70,8 @@ alert(message);
 
 ## Inline code
 
-    This web site is using \`markedjs/marked\`.
-  `);
+This web site is using \`markedjs/marked\`.
+`);
 
   return (
     <main className="w-screen h-screen flex flex-col">
